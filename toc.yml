@@ -1,0 +1,8 @@
+- name: Documentation
+  href: docs/
+- name: Visitor Pattern
+  href: src/VisitorPattern/Visitor/README.md
+- name: Weather Forecast API
+  href: src/MinimalApiSample\MinimalApiSample.html
+- name: NDoc
+  href: api/

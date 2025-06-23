@@ -1,0 +1,99 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "MinimalApiSample | v1",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/hello": {
+      "get": {
+        "tags": [
+          "Greetings"
+        ],
+        "operationId": "Hello",
+        "produces": [
+          "text/plain"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "/weatherforecast/{number}": {
+      "get": {
+        "tags": [
+          "MinimalApiSample"
+        ],
+        "summary": "Get Weather Forecast",
+        "description": "Generate random data for weather forecast",
+        "operationId": "GetWeatherForecast",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "number",
+            "description": "Numbre of data to generate, default = 5",
+            "required": true,
+            "type": "integer",
+            "format": "int32",
+            "default": 5
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/WeatherForecast"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "WeatherForecast": {
+      "required": [
+        "date",
+        "temperatureC",
+        "summary"
+      ],
+      "type": "object",
+      "properties": {
+        "date": {
+          "format": "date",
+          "type": "string"
+        },
+        "temperatureC": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "summary": {
+          "type": "string"
+        },
+        "temperatureF": {
+          "format": "int32",
+          "description": "Temperature in Fahrenheit",
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Greetings"
+    },
+    {
+      "name": "MinimalApiSample"
+    }
+  ]
+}

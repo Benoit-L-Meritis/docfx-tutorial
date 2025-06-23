@@ -1,0 +1,172 @@
+### YamlMime:ManagedReference
+items:
+- uid: VisitorPattern.Domain.Shapes.IShapePrinter
+  commentId: T:VisitorPattern.Domain.Shapes.IShapePrinter
+  id: IShapePrinter
+  parent: VisitorPattern.Domain.Shapes
+  children:
+  - VisitorPattern.Domain.Shapes.IShapePrinter.Print(VisitorPattern.Domain.Shapes.Circle)
+  - VisitorPattern.Domain.Shapes.IShapePrinter.Print(VisitorPattern.Domain.Shapes.Rectangle)
+  - VisitorPattern.Domain.Shapes.IShapePrinter.Print(VisitorPattern.Domain.Shapes.Square)
+  langs:
+  - csharp
+  - vb
+  name: IShapePrinter
+  nameWithType: IShapePrinter
+  fullName: VisitorPattern.Domain.Shapes.IShapePrinter
+  type: Interface
+  source:
+    id: IShapePrinter
+    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\IShapePrinter.cs
+    startLine: 8
+  assemblies:
+  - VisitorPattern
+  namespace: VisitorPattern.Domain.Shapes
+  summary: Visitor interface for printing shapes.
+  remarks: Provides a methods to print the details of various geometric shapes.
+  example: []
+  syntax:
+    content: public interface IShapePrinter
+    content.vb: Public Interface IShapePrinter
+- uid: VisitorPattern.Domain.Shapes.IShapePrinter.Print(VisitorPattern.Domain.Shapes.Rectangle)
+  commentId: M:VisitorPattern.Domain.Shapes.IShapePrinter.Print(VisitorPattern.Domain.Shapes.Rectangle)
+  id: Print(VisitorPattern.Domain.Shapes.Rectangle)
+  parent: VisitorPattern.Domain.Shapes.IShapePrinter
+  langs:
+  - csharp
+  - vb
+  name: Print(Rectangle)
+  nameWithType: IShapePrinter.Print(Rectangle)
+  fullName: VisitorPattern.Domain.Shapes.IShapePrinter.Print(VisitorPattern.Domain.Shapes.Rectangle)
+  type: Method
+  source:
+    id: Print
+    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\IShapePrinter.cs
+    startLine: 14
+  assemblies:
+  - VisitorPattern
+  namespace: VisitorPattern.Domain.Shapes
+  summary: Prints the details of a rectangle.
+  example: []
+  syntax:
+    content: void Print(Rectangle rectangle)
+    parameters:
+    - id: rectangle
+      type: VisitorPattern.Domain.Shapes.Rectangle
+      description: ''
+    content.vb: Sub Print(rectangle As Rectangle)
+  overload: VisitorPattern.Domain.Shapes.IShapePrinter.Print*
+- uid: VisitorPattern.Domain.Shapes.IShapePrinter.Print(VisitorPattern.Domain.Shapes.Square)
+  commentId: M:VisitorPattern.Domain.Shapes.IShapePrinter.Print(VisitorPattern.Domain.Shapes.Square)
+  id: Print(VisitorPattern.Domain.Shapes.Square)
+  parent: VisitorPattern.Domain.Shapes.IShapePrinter
+  langs:
+  - csharp
+  - vb
+  name: Print(Square)
+  nameWithType: IShapePrinter.Print(Square)
+  fullName: VisitorPattern.Domain.Shapes.IShapePrinter.Print(VisitorPattern.Domain.Shapes.Square)
+  type: Method
+  source:
+    id: Print
+    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\IShapePrinter.cs
+    startLine: 20
+  assemblies:
+  - VisitorPattern
+  namespace: VisitorPattern.Domain.Shapes
+  summary: Prints the details of a square.
+  example: []
+  syntax:
+    content: void Print(Square square)
+    parameters:
+    - id: square
+      type: VisitorPattern.Domain.Shapes.Square
+      description: ''
+    content.vb: Sub Print(square As Square)
+  overload: VisitorPattern.Domain.Shapes.IShapePrinter.Print*
+- uid: VisitorPattern.Domain.Shapes.IShapePrinter.Print(VisitorPattern.Domain.Shapes.Circle)
+  commentId: M:VisitorPattern.Domain.Shapes.IShapePrinter.Print(VisitorPattern.Domain.Shapes.Circle)
+  id: Print(VisitorPattern.Domain.Shapes.Circle)
+  parent: VisitorPattern.Domain.Shapes.IShapePrinter
+  langs:
+  - csharp
+  - vb
+  name: Print(Circle)
+  nameWithType: IShapePrinter.Print(Circle)
+  fullName: VisitorPattern.Domain.Shapes.IShapePrinter.Print(VisitorPattern.Domain.Shapes.Circle)
+  type: Method
+  source:
+    id: Print
+    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\IShapePrinter.cs
+    startLine: 26
+  assemblies:
+  - VisitorPattern
+  namespace: VisitorPattern.Domain.Shapes
+  summary: Prints the details of a circle.
+  example: []
+  syntax:
+    content: void Print(Circle circle)
+    parameters:
+    - id: circle
+      type: VisitorPattern.Domain.Shapes.Circle
+      description: ''
+    content.vb: Sub Print(circle As Circle)
+  overload: VisitorPattern.Domain.Shapes.IShapePrinter.Print*
+references:
+- uid: VisitorPattern.Domain.Shapes
+  commentId: N:VisitorPattern.Domain.Shapes
+  href: VisitorPattern.html
+  name: VisitorPattern.Domain.Shapes
+  nameWithType: VisitorPattern.Domain.Shapes
+  fullName: VisitorPattern.Domain.Shapes
+  spec.csharp:
+  - uid: VisitorPattern
+    name: VisitorPattern
+    href: VisitorPattern.html
+  - name: .
+  - uid: VisitorPattern.Domain
+    name: Domain
+    href: VisitorPattern.Domain.html
+  - name: .
+  - uid: VisitorPattern.Domain.Shapes
+    name: Shapes
+    href: VisitorPattern.Domain.Shapes.html
+  spec.vb:
+  - uid: VisitorPattern
+    name: VisitorPattern
+    href: VisitorPattern.html
+  - name: .
+  - uid: VisitorPattern.Domain
+    name: Domain
+    href: VisitorPattern.Domain.html
+  - name: .
+  - uid: VisitorPattern.Domain.Shapes
+    name: Shapes
+    href: VisitorPattern.Domain.Shapes.html
+- uid: VisitorPattern.Domain.Shapes.IShapePrinter.Print*
+  commentId: Overload:VisitorPattern.Domain.Shapes.IShapePrinter.Print
+  href: VisitorPattern.Domain.Shapes.IShapePrinter.html#VisitorPattern_Domain_Shapes_IShapePrinter_Print_VisitorPattern_Domain_Shapes_Rectangle_
+  name: Print
+  nameWithType: IShapePrinter.Print
+  fullName: VisitorPattern.Domain.Shapes.IShapePrinter.Print
+- uid: VisitorPattern.Domain.Shapes.Rectangle
+  commentId: T:VisitorPattern.Domain.Shapes.Rectangle
+  parent: VisitorPattern.Domain.Shapes
+  href: VisitorPattern.Domain.Shapes.Rectangle.html
+  name: Rectangle
+  nameWithType: Rectangle
+  fullName: VisitorPattern.Domain.Shapes.Rectangle
+- uid: VisitorPattern.Domain.Shapes.Square
+  commentId: T:VisitorPattern.Domain.Shapes.Square
+  parent: VisitorPattern.Domain.Shapes
+  href: VisitorPattern.Domain.Shapes.Square.html
+  name: Square
+  nameWithType: Square
+  fullName: VisitorPattern.Domain.Shapes.Square
+- uid: VisitorPattern.Domain.Shapes.Circle
+  commentId: T:VisitorPattern.Domain.Shapes.Circle
+  parent: VisitorPattern.Domain.Shapes
+  href: VisitorPattern.Domain.Shapes.Circle.html
+  name: Circle
+  nameWithType: Circle
+  fullName: VisitorPattern.Domain.Shapes.Circle

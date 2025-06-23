@@ -1,0 +1,60 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [
+            "src/**.csproj"
+          ],
+          "exclude": [
+            "_site/**",
+            "**/bin/**",
+            "**/obj/**",
+            "**/[Tt]ests/**",
+            "**/test/**",
+            "**/scripts/**"
+          ]
+        }
+      ],
+      "dest": "api",
+      "disableGitFeatures": false
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}",
+          "**/MinimalApiSample.json"
+        ],
+        "exclude": [
+          "_site/**",
+          "**/bin/**",
+          "**/obj/**",
+          "**/[Tt]ests/**",
+          "**/test/**",
+          "**/scripts/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "output": "_site",
+    "template": [
+      "default",
+      "modern"
+    ],
+    "globalMetadata": {
+      "_appName": "DocFX Demo",
+      "_appTitle": "doc-fx-demo",
+      "_enableSearch": true,
+      "pdf": false
+    }
+  }
+}

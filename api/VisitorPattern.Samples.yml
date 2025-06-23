@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: VisitorPattern.Samples
+  commentId: N:VisitorPattern.Samples
+  id: VisitorPattern.Samples
+  children:
+  - VisitorPattern.Samples.Shapes
+  langs:
+  - csharp
+  - vb
+  name: VisitorPattern.Samples
+  nameWithType: VisitorPattern.Samples
+  fullName: VisitorPattern.Samples
+  type: Namespace
+  assemblies:
+  - VisitorPattern
+references:
+- uid: VisitorPattern.Samples.Shapes
+  commentId: T:VisitorPattern.Samples.Shapes
+  href: VisitorPattern.Samples.Shapes.html
+  name: Shapes
+  nameWithType: Shapes
+  fullName: VisitorPattern.Samples.Shapes

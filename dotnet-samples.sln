@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36203.30
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{F3DBE629-793F-4D07-B754-3CFD0D493783}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{87B0E7EF-AFBE-426B-9A43-EFEDD472D266}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VisitorPattern", "VisitorPattern", "{5B28D376-D9CE-4D26-A558-0DA1A0F031E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorPattern", "src\VisitorPattern\VisitorPattern.csproj", "{AED39A0A-92B7-9BB9-F309-29E4150D5DAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "test\UnitTests\UnitTests.csproj", "{AA89E313-2B09-44F7-8845-C3C7E1357A72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{90BE98FC-D707-4BED-B99E-A91F70135D14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalApiSample", "src\MinimalApiSample\MinimalApiSample.csproj", "{BD2E99BF-E8B0-4439-86B7-7D09E73D8879}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "architecture", "architecture", "{DADA0B3E-EC46-4774-9FB0-1E986DCA7777}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BDD", "BDD", "{46024260-A645-414A-BD72-C001A2194BDD}"
+	ProjectSection(SolutionItems) = preProject
+		docs\BDD\Adding-a-product-to-the-cart.md = docs\BDD\Adding-a-product-to-the-cart.md
+		docs\BDD\Explaining-Cucumber.md = docs\BDD\Explaining-Cucumber.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HowTo", "HowTo", "{FA9809C7-CA41-4CE5-A707-C5C0DF5BD5CF}"
+	ProjectSection(SolutionItems) = preProject
+		docs\HowTo\DocFX-tutorial.md = docs\HowTo\DocFX-tutorial.md
+		docs\HowTo\Generate-open-api-doc.md = docs\HowTo\Generate-open-api-doc.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".prompts", ".prompts", "{552EAD53-BC69-4A56-84B9-4219C2780451}"
+	ProjectSection(SolutionItems) = preProject
+		.prompts\generate-doc.md = .prompts\generate-doc.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AED39A0A-92B7-9BB9-F309-29E4150D5DAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AED39A0A-92B7-9BB9-F309-29E4150D5DAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AED39A0A-92B7-9BB9-F309-29E4150D5DAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AED39A0A-92B7-9BB9-F309-29E4150D5DAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA89E313-2B09-44F7-8845-C3C7E1357A72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA89E313-2B09-44F7-8845-C3C7E1357A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA89E313-2B09-44F7-8845-C3C7E1357A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA89E313-2B09-44F7-8845-C3C7E1357A72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD2E99BF-E8B0-4439-86B7-7D09E73D8879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD2E99BF-E8B0-4439-86B7-7D09E73D8879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD2E99BF-E8B0-4439-86B7-7D09E73D8879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD2E99BF-E8B0-4439-86B7-7D09E73D8879}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5B28D376-D9CE-4D26-A558-0DA1A0F031E0} = {87B0E7EF-AFBE-426B-9A43-EFEDD472D266}
+		{AED39A0A-92B7-9BB9-F309-29E4150D5DAC} = {5B28D376-D9CE-4D26-A558-0DA1A0F031E0}
+		{AA89E313-2B09-44F7-8845-C3C7E1357A72} = {F3DBE629-793F-4D07-B754-3CFD0D493783}
+		{90BE98FC-D707-4BED-B99E-A91F70135D14} = {87B0E7EF-AFBE-426B-9A43-EFEDD472D266}
+		{BD2E99BF-E8B0-4439-86B7-7D09E73D8879} = {90BE98FC-D707-4BED-B99E-A91F70135D14}
+		{DADA0B3E-EC46-4774-9FB0-1E986DCA7777} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{46024260-A645-414A-BD72-C001A2194BDD} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{FA9809C7-CA41-4CE5-A707-C5C0DF5BD5CF} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62B576F2-B7ED-4279-8E26-78905485C9C7}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: VisitorPattern.Domain.Shapes.IPrintabeShape
+  commentId: T:VisitorPattern.Domain.Shapes.IPrintabeShape
+  id: IPrintabeShape
+  parent: VisitorPattern.Domain.Shapes
+  children:
+  - VisitorPattern.Domain.Shapes.IPrintabeShape.Print(VisitorPattern.Domain.Shapes.IShapePrinter)
+  langs:
+  - csharp
+  - vb
+  name: IPrintabeShape
+  nameWithType: IPrintabeShape
+  fullName: VisitorPattern.Domain.Shapes.IPrintabeShape
+  type: Interface
+  source:
+    id: IPrintabeShape
+    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\IPrintabeShape.cs
+    startLine: 5
+  assemblies:
+  - VisitorPattern
+  namespace: VisitorPattern.Domain.Shapes
+  summary: Represents a printable shape in the domain of geometric shapes.
+  example: []
+  syntax:
+    content: public interface IPrintabeShape
+    content.vb: Public Interface IPrintabeShape
+- uid: VisitorPattern.Domain.Shapes.IPrintabeShape.Print(VisitorPattern.Domain.Shapes.IShapePrinter)
+  commentId: M:VisitorPattern.Domain.Shapes.IPrintabeShape.Print(VisitorPattern.Domain.Shapes.IShapePrinter)
+  id: Print(VisitorPattern.Domain.Shapes.IShapePrinter)
+  parent: VisitorPattern.Domain.Shapes.IPrintabeShape
+  langs:
+  - csharp
+  - vb
+  name: Print(IShapePrinter)
+  nameWithType: IPrintabeShape.Print(IShapePrinter)
+  fullName: VisitorPattern.Domain.Shapes.IPrintabeShape.Print(VisitorPattern.Domain.Shapes.IShapePrinter)
+  type: Method
+  source:
+    id: Print
+    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\IPrintabeShape.cs
+    startLine: 11
+  assemblies:
+  - VisitorPattern
+  namespace: VisitorPattern.Domain.Shapes
+  summary: Prints the current shape using the specified shape printer.
+  example: []
+  syntax:
+    content: void Print(IShapePrinter printer)
+    parameters:
+    - id: printer
+      type: VisitorPattern.Domain.Shapes.IShapePrinter
+      description: The <xref href="VisitorPattern.Domain.Shapes.IShapePrinter" data-throw-if-not-resolved="false"></xref> instance responsible for printing the shape. Cannot be null.
+    content.vb: Sub Print(printer As IShapePrinter)
+  overload: VisitorPattern.Domain.Shapes.IPrintabeShape.Print*
+references:
+- uid: VisitorPattern.Domain.Shapes
+  commentId: N:VisitorPattern.Domain.Shapes
+  href: VisitorPattern.html
+  name: VisitorPattern.Domain.Shapes
+  nameWithType: VisitorPattern.Domain.Shapes
+  fullName: VisitorPattern.Domain.Shapes
+  spec.csharp:
+  - uid: VisitorPattern
+    name: VisitorPattern
+    href: VisitorPattern.html
+  - name: .
+  - uid: VisitorPattern.Domain
+    name: Domain
+    href: VisitorPattern.Domain.html
+  - name: .
+  - uid: VisitorPattern.Domain.Shapes
+    name: Shapes
+    href: VisitorPattern.Domain.Shapes.html
+  spec.vb:
+  - uid: VisitorPattern
+    name: VisitorPattern
+    href: VisitorPattern.html
+  - name: .
+  - uid: VisitorPattern.Domain
+    name: Domain
+    href: VisitorPattern.Domain.html
+  - name: .
+  - uid: VisitorPattern.Domain.Shapes
+    name: Shapes
+    href: VisitorPattern.Domain.Shapes.html
+- uid: VisitorPattern.Domain.Shapes.IShapePrinter
+  commentId: T:VisitorPattern.Domain.Shapes.IShapePrinter
+  parent: VisitorPattern.Domain.Shapes
+  href: VisitorPattern.Domain.Shapes.IShapePrinter.html
+  name: IShapePrinter
+  nameWithType: IShapePrinter
+  fullName: VisitorPattern.Domain.Shapes.IShapePrinter
+- uid: VisitorPattern.Domain.Shapes.IPrintabeShape.Print*
+  commentId: Overload:VisitorPattern.Domain.Shapes.IPrintabeShape.Print
+  href: VisitorPattern.Domain.Shapes.IPrintabeShape.html#VisitorPattern_Domain_Shapes_IPrintabeShape_Print_VisitorPattern_Domain_Shapes_IShapePrinter_
+  name: Print
+  nameWithType: IPrintabeShape.Print
+  fullName: VisitorPattern.Domain.Shapes.IPrintabeShape.Print

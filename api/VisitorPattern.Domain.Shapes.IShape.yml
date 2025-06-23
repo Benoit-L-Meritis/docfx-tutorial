@@ -1,0 +1,188 @@
+### YamlMime:ManagedReference
+items:
+- uid: VisitorPattern.Domain.Shapes.IShape
+  commentId: T:VisitorPattern.Domain.Shapes.IShape
+  id: IShape
+  parent: VisitorPattern.Domain.Shapes
+  children:
+  - VisitorPattern.Domain.Shapes.IShape.Area
+  - VisitorPattern.Domain.Shapes.IShape.Perimeter
+  - VisitorPattern.Domain.Shapes.IShape.ShapeName
+  langs:
+  - csharp
+  - vb
+  name: IShape
+  nameWithType: IShape
+  fullName: VisitorPattern.Domain.Shapes.IShape
+  type: Interface
+  source:
+    id: IShape
+    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\IShape.cs
+    startLine: 5
+  assemblies:
+  - VisitorPattern
+  namespace: VisitorPattern.Domain.Shapes
+  summary: Interface representing a geometric shape.
+  example: []
+  syntax:
+    content: public interface IShape
+    content.vb: Public Interface IShape
+- uid: VisitorPattern.Domain.Shapes.IShape.Area
+  commentId: M:VisitorPattern.Domain.Shapes.IShape.Area
+  id: Area
+  parent: VisitorPattern.Domain.Shapes.IShape
+  langs:
+  - csharp
+  - vb
+  name: Area()
+  nameWithType: IShape.Area()
+  fullName: VisitorPattern.Domain.Shapes.IShape.Area()
+  type: Method
+  source:
+    id: Area
+    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\IShape.cs
+    startLine: 12
+  assemblies:
+  - VisitorPattern
+  namespace: VisitorPattern.Domain.Shapes
+  summary: Area of the shape.
+  example: []
+  syntax:
+    content: double Area()
+    return:
+      type: System.Double
+      description: ''
+    content.vb: Function Area() As Double
+  overload: VisitorPattern.Domain.Shapes.IShape.Area*
+- uid: VisitorPattern.Domain.Shapes.IShape.Perimeter
+  commentId: M:VisitorPattern.Domain.Shapes.IShape.Perimeter
+  id: Perimeter
+  parent: VisitorPattern.Domain.Shapes.IShape
+  langs:
+  - csharp
+  - vb
+  name: Perimeter()
+  nameWithType: IShape.Perimeter()
+  fullName: VisitorPattern.Domain.Shapes.IShape.Perimeter()
+  type: Method
+  source:
+    id: Perimeter
+    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\IShape.cs
+    startLine: 18
+  assemblies:
+  - VisitorPattern
+  namespace: VisitorPattern.Domain.Shapes
+  summary: Perimeter of the shape.
+  example: []
+  syntax:
+    content: double Perimeter()
+    return:
+      type: System.Double
+      description: ''
+    content.vb: Function Perimeter() As Double
+  overload: VisitorPattern.Domain.Shapes.IShape.Perimeter*
+- uid: VisitorPattern.Domain.Shapes.IShape.ShapeName
+  commentId: M:VisitorPattern.Domain.Shapes.IShape.ShapeName
+  id: ShapeName
+  parent: VisitorPattern.Domain.Shapes.IShape
+  langs:
+  - csharp
+  - vb
+  name: ShapeName()
+  nameWithType: IShape.ShapeName()
+  fullName: VisitorPattern.Domain.Shapes.IShape.ShapeName()
+  type: Method
+  source:
+    id: ShapeName
+    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\IShape.cs
+    startLine: 24
+  assemblies:
+  - VisitorPattern
+  namespace: VisitorPattern.Domain.Shapes
+  summary: Name of the shape.
+  example: []
+  syntax:
+    content: string ShapeName()
+    return:
+      type: System.String
+      description: ''
+    content.vb: Function ShapeName() As String
+  overload: VisitorPattern.Domain.Shapes.IShape.ShapeName*
+references:
+- uid: VisitorPattern.Domain.Shapes
+  commentId: N:VisitorPattern.Domain.Shapes
+  href: VisitorPattern.html
+  name: VisitorPattern.Domain.Shapes
+  nameWithType: VisitorPattern.Domain.Shapes
+  fullName: VisitorPattern.Domain.Shapes
+  spec.csharp:
+  - uid: VisitorPattern
+    name: VisitorPattern
+    href: VisitorPattern.html
+  - name: .
+  - uid: VisitorPattern.Domain
+    name: Domain
+    href: VisitorPattern.Domain.html
+  - name: .
+  - uid: VisitorPattern.Domain.Shapes
+    name: Shapes
+    href: VisitorPattern.Domain.Shapes.html
+  spec.vb:
+  - uid: VisitorPattern
+    name: VisitorPattern
+    href: VisitorPattern.html
+  - name: .
+  - uid: VisitorPattern.Domain
+    name: Domain
+    href: VisitorPattern.Domain.html
+  - name: .
+  - uid: VisitorPattern.Domain.Shapes
+    name: Shapes
+    href: VisitorPattern.Domain.Shapes.html
+- uid: VisitorPattern.Domain.Shapes.IShape.Area*
+  commentId: Overload:VisitorPattern.Domain.Shapes.IShape.Area
+  href: VisitorPattern.Domain.Shapes.IShape.html#VisitorPattern_Domain_Shapes_IShape_Area
+  name: Area
+  nameWithType: IShape.Area
+  fullName: VisitorPattern.Domain.Shapes.IShape.Area
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: VisitorPattern.Domain.Shapes.IShape.Perimeter*
+  commentId: Overload:VisitorPattern.Domain.Shapes.IShape.Perimeter
+  href: VisitorPattern.Domain.Shapes.IShape.html#VisitorPattern_Domain_Shapes_IShape_Perimeter
+  name: Perimeter
+  nameWithType: IShape.Perimeter
+  fullName: VisitorPattern.Domain.Shapes.IShape.Perimeter
+- uid: VisitorPattern.Domain.Shapes.IShape.ShapeName*
+  commentId: Overload:VisitorPattern.Domain.Shapes.IShape.ShapeName
+  href: VisitorPattern.Domain.Shapes.IShape.html#VisitorPattern_Domain_Shapes_IShape_ShapeName
+  name: ShapeName
+  nameWithType: IShape.ShapeName
+  fullName: VisitorPattern.Domain.Shapes.IShape.ShapeName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

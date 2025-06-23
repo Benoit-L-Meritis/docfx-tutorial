@@ -1,0 +1,49 @@
+### YamlMime:TableOfContent
+items:
+- uid: MinimalApiSample.dtos
+  name: MinimalApiSample.dtos
+  type: Namespace
+  items:
+  - uid: MinimalApiSample.dtos.WeatherForecast
+    name: WeatherForecast
+    type: Class
+- uid: VisitorPattern.Domain.Shapes
+  name: VisitorPattern.Domain.Shapes
+  type: Namespace
+  items:
+  - uid: VisitorPattern.Domain.Shapes.Circle
+    name: Circle
+    type: Class
+  - uid: VisitorPattern.Domain.Shapes.IPrintabeShape
+    name: IPrintabeShape
+    type: Interface
+  - uid: VisitorPattern.Domain.Shapes.IShape
+    name: IShape
+    type: Interface
+  - uid: VisitorPattern.Domain.Shapes.IShapePrinter
+    name: IShapePrinter
+    type: Interface
+  - uid: VisitorPattern.Domain.Shapes.Rectangle
+    name: Rectangle
+    type: Class
+  - uid: VisitorPattern.Domain.Shapes.Shape
+    name: Shape
+    type: Class
+  - uid: VisitorPattern.Domain.Shapes.Square
+    name: Square
+    type: Class
+- uid: VisitorPattern.Samples
+  name: VisitorPattern.Samples
+  type: Namespace
+  items:
+  - uid: VisitorPattern.Samples.Shapes
+    name: Shapes
+    type: Class
+- uid: VisitorPattern.Visitor
+  name: VisitorPattern.Visitor
+  type: Namespace
+  items:
+  - uid: VisitorPattern.Visitor.ShapePrinter
+    name: ShapePrinter
+    type: Class
+memberLayout: SamePage

@@ -1,0 +1,102 @@
+### YamlMime:ManagedReference
+items:
+- uid: VisitorPattern.Domain.Shapes
+  commentId: N:VisitorPattern.Domain.Shapes
+  id: VisitorPattern.Domain.Shapes
+  children:
+  - VisitorPattern.Domain.Shapes.Circle
+  - VisitorPattern.Domain.Shapes.IPrintabeShape
+  - VisitorPattern.Domain.Shapes.IShape
+  - VisitorPattern.Domain.Shapes.IShapePrinter
+  - VisitorPattern.Domain.Shapes.Rectangle
+  - VisitorPattern.Domain.Shapes.Shape
+  - VisitorPattern.Domain.Shapes.Square
+  langs:
+  - csharp
+  - vb
+  name: VisitorPattern.Domain.Shapes
+  nameWithType: VisitorPattern.Domain.Shapes
+  fullName: VisitorPattern.Domain.Shapes
+  type: Namespace
+  assemblies:
+  - VisitorPattern
+references:
+- uid: VisitorPattern.Domain.Shapes.Circle
+  commentId: T:VisitorPattern.Domain.Shapes.Circle
+  parent: VisitorPattern.Domain.Shapes
+  href: VisitorPattern.Domain.Shapes.Circle.html
+  name: Circle
+  nameWithType: Circle
+  fullName: VisitorPattern.Domain.Shapes.Circle
+- uid: VisitorPattern.Domain.Shapes.IPrintabeShape
+  commentId: T:VisitorPattern.Domain.Shapes.IPrintabeShape
+  parent: VisitorPattern.Domain.Shapes
+  href: VisitorPattern.Domain.Shapes.IPrintabeShape.html
+  name: IPrintabeShape
+  nameWithType: IPrintabeShape
+  fullName: VisitorPattern.Domain.Shapes.IPrintabeShape
+- uid: VisitorPattern.Domain.Shapes.IShape
+  commentId: T:VisitorPattern.Domain.Shapes.IShape
+  parent: VisitorPattern.Domain.Shapes
+  href: VisitorPattern.Domain.Shapes.IShape.html
+  name: IShape
+  nameWithType: IShape
+  fullName: VisitorPattern.Domain.Shapes.IShape
+- uid: VisitorPattern.Domain.Shapes.IShapePrinter
+  commentId: T:VisitorPattern.Domain.Shapes.IShapePrinter
+  parent: VisitorPattern.Domain.Shapes
+  href: VisitorPattern.Domain.Shapes.IShapePrinter.html
+  name: IShapePrinter
+  nameWithType: IShapePrinter
+  fullName: VisitorPattern.Domain.Shapes.IShapePrinter
+- uid: VisitorPattern.Domain.Shapes.Rectangle
+  commentId: T:VisitorPattern.Domain.Shapes.Rectangle
+  parent: VisitorPattern.Domain.Shapes
+  href: VisitorPattern.Domain.Shapes.Rectangle.html
+  name: Rectangle
+  nameWithType: Rectangle
+  fullName: VisitorPattern.Domain.Shapes.Rectangle
+- uid: VisitorPattern.Domain.Shapes.Shape
+  commentId: T:VisitorPattern.Domain.Shapes.Shape
+  parent: VisitorPattern.Domain.Shapes
+  href: VisitorPattern.Domain.Shapes.Shape.html
+  name: Shape
+  nameWithType: Shape
+  fullName: VisitorPattern.Domain.Shapes.Shape
+- uid: VisitorPattern.Domain.Shapes.Square
+  commentId: T:VisitorPattern.Domain.Shapes.Square
+  parent: VisitorPattern.Domain.Shapes
+  href: VisitorPattern.Domain.Shapes.Square.html
+  name: Square
+  nameWithType: Square
+  fullName: VisitorPattern.Domain.Shapes.Square
+- uid: VisitorPattern.Domain.Shapes
+  commentId: N:VisitorPattern.Domain.Shapes
+  href: VisitorPattern.html
+  name: VisitorPattern.Domain.Shapes
+  nameWithType: VisitorPattern.Domain.Shapes
+  fullName: VisitorPattern.Domain.Shapes
+  spec.csharp:
+  - uid: VisitorPattern
+    name: VisitorPattern
+    href: VisitorPattern.html
+  - name: .
+  - uid: VisitorPattern.Domain
+    name: Domain
+    href: VisitorPattern.Domain.html
+  - name: .
+  - uid: VisitorPattern.Domain.Shapes
+    name: Shapes
+    href: VisitorPattern.Domain.Shapes.html
+  spec.vb:
+  - uid: VisitorPattern
+    name: VisitorPattern
+    href: VisitorPattern.html
+  - name: .
+  - uid: VisitorPattern.Domain
+    name: Domain
+    href: VisitorPattern.Domain.html
+  - name: .
+  - uid: VisitorPattern.Domain.Shapes
+    name: Shapes
+    href: VisitorPattern.Domain.Shapes.html

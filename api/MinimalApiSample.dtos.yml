@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: MinimalApiSample.dtos
+  commentId: N:MinimalApiSample.dtos
+  id: MinimalApiSample.dtos
+  children:
+  - MinimalApiSample.dtos.WeatherForecast
+  langs:
+  - csharp
+  - vb
+  name: MinimalApiSample.dtos
+  nameWithType: MinimalApiSample.dtos
+  fullName: MinimalApiSample.dtos
+  type: Namespace
+  assemblies:
+  - MinimalApiSample
+references:
+- uid: MinimalApiSample.dtos.WeatherForecast
+  commentId: T:MinimalApiSample.dtos.WeatherForecast
+  href: MinimalApiSample.dtos.WeatherForecast.html
+  name: WeatherForecast
+  nameWithType: WeatherForecast
+  fullName: MinimalApiSample.dtos.WeatherForecast

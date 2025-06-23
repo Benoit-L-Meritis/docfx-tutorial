@@ -1,0 +1,613 @@
+### YamlMime:ManagedReference
+items:
+- uid: VisitorPattern.Visitor.ShapePrinter
+  commentId: T:VisitorPattern.Visitor.ShapePrinter
+  id: ShapePrinter
+  parent: VisitorPattern.Visitor
+  children:
+  - VisitorPattern.Visitor.ShapePrinter.Print(System.Object)
+  - VisitorPattern.Visitor.ShapePrinter.Print(VisitorPattern.Domain.Shapes.Circle)
+  - VisitorPattern.Visitor.ShapePrinter.Print(VisitorPattern.Domain.Shapes.Rectangle)
+  - VisitorPattern.Visitor.ShapePrinter.Print(VisitorPattern.Domain.Shapes.Square)
+  langs:
+  - csharp
+  - vb
+  name: ShapePrinter
+  nameWithType: ShapePrinter
+  fullName: VisitorPattern.Visitor.ShapePrinter
+  type: Class
+  source:
+    id: ShapePrinter
+    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Visitor\ShapePrinter.cs
+    startLine: 48
+  assemblies:
+  - VisitorPattern
+  namespace: VisitorPattern.Visitor
+  summary: Concrete visitor implementation for printing shapes.
+  remarks: >-
+    <p>
+
+    Each methods permits printing the details of a specific shape without giving the responsibility of how to print the shape to the shape itself.
+
+    </p>
+
+    <p>
+
+    As is, we can add new shapes without modifying this class, adhering to the Open/Closed Principle.
+
+    </p>
+
+    <p>
+
+    <example>
+
+    This is an example of how to use the ShapePrinter class:
+
+    <pre><code class="lang-csharp">IPrintabeShape mySquare = new Square(5);
+
+    ShapePrinter shapePrinter = new();
+
+    mySquare.Print(shapePrinter);</code></pre>
+
+    </example>
+
+    </p>
+
+    <p>
+
+    Supported shapes include:
+        <ul><li><span class="term">Rectangle</span>Rectangle printer with area and perimeter</li><li><span class="term">Circle</span>Circle printer with area and perimeter</li><li><span class="term">Square</span>Square printer with area and perimeter and a representation of the square in ASCII Art</li></ul>
+    </p>
+
+    <p>
+
+    For more details about XML documentation, see <a href="https://learn.microsoft.com/dotnet/csharp/programming-guide/xmldoc/">https://learn.microsoft.com/dotnet/csharp/programming-guide/xmldoc/</a>.
+
+    </p>
+  example: []
+  syntax:
+    content: 'public class ShapePrinter : IShapePrinter'
+    content.vb: Public Class ShapePrinter Implements IShapePrinter
+  inheritance:
+  - System.Object
+  implements:
+  - VisitorPattern.Domain.Shapes.IShapePrinter
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: VisitorPattern.Visitor.ShapePrinter.Print(VisitorPattern.Domain.Shapes.Rectangle)
+  commentId: M:VisitorPattern.Visitor.ShapePrinter.Print(VisitorPattern.Domain.Shapes.Rectangle)
+  id: Print(VisitorPattern.Domain.Shapes.Rectangle)
+  parent: VisitorPattern.Visitor.ShapePrinter
+  langs:
+  - csharp
+  - vb
+  name: Print(Rectangle)
+  nameWithType: ShapePrinter.Print(Rectangle)
+  fullName: VisitorPattern.Visitor.ShapePrinter.Print(VisitorPattern.Domain.Shapes.Rectangle)
+  type: Method
+  source:
+    id: Print
+    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Visitor\ShapePrinter.cs
+    startLine: 51
+  assemblies:
+  - VisitorPattern
+  namespace: VisitorPattern.Visitor
+  summary: Prints the details of a rectangle.
+  example: []
+  syntax:
+    content: public void Print(Rectangle rectangle)
+    parameters:
+    - id: rectangle
+      type: VisitorPattern.Domain.Shapes.Rectangle
+      description: ''
+    content.vb: Public Sub Print(rectangle As Rectangle)
+  overload: VisitorPattern.Visitor.ShapePrinter.Print*
+  implements:
+  - VisitorPattern.Domain.Shapes.IShapePrinter.Print(VisitorPattern.Domain.Shapes.Rectangle)
+- uid: VisitorPattern.Visitor.ShapePrinter.Print(VisitorPattern.Domain.Shapes.Square)
+  commentId: M:VisitorPattern.Visitor.ShapePrinter.Print(VisitorPattern.Domain.Shapes.Square)
+  id: Print(VisitorPattern.Domain.Shapes.Square)
+  parent: VisitorPattern.Visitor.ShapePrinter
+  langs:
+  - csharp
+  - vb
+  name: Print(Square)
+  nameWithType: ShapePrinter.Print(Square)
+  fullName: VisitorPattern.Visitor.ShapePrinter.Print(VisitorPattern.Domain.Shapes.Square)
+  type: Method
+  source:
+    id: Print
+    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Visitor\ShapePrinter.cs
+    startLine: 57
+  assemblies:
+  - VisitorPattern
+  namespace: VisitorPattern.Visitor
+  summary: Prints the details of a square.
+  example: []
+  syntax:
+    content: public void Print(Square square)
+    parameters:
+    - id: square
+      type: VisitorPattern.Domain.Shapes.Square
+      description: ''
+    content.vb: Public Sub Print(square As Square)
+  overload: VisitorPattern.Visitor.ShapePrinter.Print*
+  implements:
+  - VisitorPattern.Domain.Shapes.IShapePrinter.Print(VisitorPattern.Domain.Shapes.Square)
+- uid: VisitorPattern.Visitor.ShapePrinter.Print(VisitorPattern.Domain.Shapes.Circle)
+  commentId: M:VisitorPattern.Visitor.ShapePrinter.Print(VisitorPattern.Domain.Shapes.Circle)
+  id: Print(VisitorPattern.Domain.Shapes.Circle)
+  parent: VisitorPattern.Visitor.ShapePrinter
+  langs:
+  - csharp
+  - vb
+  name: Print(Circle)
+  nameWithType: ShapePrinter.Print(Circle)
+  fullName: VisitorPattern.Visitor.ShapePrinter.Print(VisitorPattern.Domain.Shapes.Circle)
+  type: Method
+  source:
+    id: Print
+    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Visitor\ShapePrinter.cs
+    startLine: 77
+  assemblies:
+  - VisitorPattern
+  namespace: VisitorPattern.Visitor
+  summary: Prints the details of a circle.
+  example: []
+  syntax:
+    content: public void Print(Circle circle)
+    parameters:
+    - id: circle
+      type: VisitorPattern.Domain.Shapes.Circle
+      description: ''
+    content.vb: Public Sub Print(circle As Circle)
+  overload: VisitorPattern.Visitor.ShapePrinter.Print*
+  implements:
+  - VisitorPattern.Domain.Shapes.IShapePrinter.Print(VisitorPattern.Domain.Shapes.Circle)
+- uid: VisitorPattern.Visitor.ShapePrinter.Print(System.Object)
+  commentId: M:VisitorPattern.Visitor.ShapePrinter.Print(System.Object)
+  id: Print(System.Object)
+  parent: VisitorPattern.Visitor.ShapePrinter
+  langs:
+  - csharp
+  - vb
+  name: Print(object)
+  nameWithType: ShapePrinter.Print(object)
+  fullName: VisitorPattern.Visitor.ShapePrinter.Print(object)
+  type: Method
+  source:
+    id: Print
+    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Visitor\ShapePrinter.cs
+    startLine: 87
+  assemblies:
+  - VisitorPattern
+  namespace: VisitorPattern.Visitor
+  summary: Prints the specified triangle to the output.
+  example: []
+  syntax:
+    content: public void Print(object triangle)
+    parameters:
+    - id: triangle
+      type: System.Object
+      description: The triangle object to be printed. Must not be null.
+    content.vb: Public Sub Print(triangle As Object)
+  overload: VisitorPattern.Visitor.ShapePrinter.Print*
+  exceptions:
+  - type: System.NotImplementedException
+    commentId: T:System.NotImplementedException
+    description: Thrown when the method is not yet implemented.
+  nameWithType.vb: ShapePrinter.Print(Object)
+  fullName.vb: VisitorPattern.Visitor.ShapePrinter.Print(Object)
+  name.vb: Print(Object)
+references:
+- uid: VisitorPattern.Visitor
+  commentId: N:VisitorPattern.Visitor
+  href: VisitorPattern.html
+  name: VisitorPattern.Visitor
+  nameWithType: VisitorPattern.Visitor
+  fullName: VisitorPattern.Visitor
+  spec.csharp:
+  - uid: VisitorPattern
+    name: VisitorPattern
+    href: VisitorPattern.html
+  - name: .
+  - uid: VisitorPattern.Visitor
+    name: Visitor
+    href: VisitorPattern.Visitor.html
+  spec.vb:
+  - uid: VisitorPattern
+    name: VisitorPattern
+    href: VisitorPattern.html
+  - name: .
+  - uid: VisitorPattern.Visitor
+    name: Visitor
+    href: VisitorPattern.Visitor.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: VisitorPattern.Domain.Shapes.IShapePrinter
+  commentId: T:VisitorPattern.Domain.Shapes.IShapePrinter
+  parent: VisitorPattern.Domain.Shapes
+  href: VisitorPattern.Domain.Shapes.IShapePrinter.html
+  name: IShapePrinter
+  nameWithType: IShapePrinter
+  fullName: VisitorPattern.Domain.Shapes.IShapePrinter
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: VisitorPattern.Domain.Shapes
+  commentId: N:VisitorPattern.Domain.Shapes
+  href: VisitorPattern.html
+  name: VisitorPattern.Domain.Shapes
+  nameWithType: VisitorPattern.Domain.Shapes
+  fullName: VisitorPattern.Domain.Shapes
+  spec.csharp:
+  - uid: VisitorPattern
+    name: VisitorPattern
+    href: VisitorPattern.html
+  - name: .
+  - uid: VisitorPattern.Domain
+    name: Domain
+    href: VisitorPattern.Domain.html
+  - name: .
+  - uid: VisitorPattern.Domain.Shapes
+    name: Shapes
+    href: VisitorPattern.Domain.Shapes.html
+  spec.vb:
+  - uid: VisitorPattern
+    name: VisitorPattern
+    href: VisitorPattern.html
+  - name: .
+  - uid: VisitorPattern.Domain
+    name: Domain
+    href: VisitorPattern.Domain.html
+  - name: .
+  - uid: VisitorPattern.Domain.Shapes
+    name: Shapes
+    href: VisitorPattern.Domain.Shapes.html
+- uid: VisitorPattern.Visitor.ShapePrinter.Print*
+  commentId: Overload:VisitorPattern.Visitor.ShapePrinter.Print
+  href: VisitorPattern.Visitor.ShapePrinter.html#VisitorPattern_Visitor_ShapePrinter_Print_VisitorPattern_Domain_Shapes_Rectangle_
+  name: Print
+  nameWithType: ShapePrinter.Print
+  fullName: VisitorPattern.Visitor.ShapePrinter.Print
+- uid: VisitorPattern.Domain.Shapes.IShapePrinter.Print(VisitorPattern.Domain.Shapes.Rectangle)
+  commentId: M:VisitorPattern.Domain.Shapes.IShapePrinter.Print(VisitorPattern.Domain.Shapes.Rectangle)
+  parent: VisitorPattern.Domain.Shapes.IShapePrinter
+  href: VisitorPattern.Domain.Shapes.IShapePrinter.html#VisitorPattern_Domain_Shapes_IShapePrinter_Print_VisitorPattern_Domain_Shapes_Rectangle_
+  name: Print(Rectangle)
+  nameWithType: IShapePrinter.Print(Rectangle)
+  fullName: VisitorPattern.Domain.Shapes.IShapePrinter.Print(VisitorPattern.Domain.Shapes.Rectangle)
+  spec.csharp:
+  - uid: VisitorPattern.Domain.Shapes.IShapePrinter.Print(VisitorPattern.Domain.Shapes.Rectangle)
+    name: Print
+    href: VisitorPattern.Domain.Shapes.IShapePrinter.html#VisitorPattern_Domain_Shapes_IShapePrinter_Print_VisitorPattern_Domain_Shapes_Rectangle_
+  - name: (
+  - uid: VisitorPattern.Domain.Shapes.Rectangle
+    name: Rectangle
+    href: VisitorPattern.Domain.Shapes.Rectangle.html
+  - name: )
+  spec.vb:
+  - uid: VisitorPattern.Domain.Shapes.IShapePrinter.Print(VisitorPattern.Domain.Shapes.Rectangle)
+    name: Print
+    href: VisitorPattern.Domain.Shapes.IShapePrinter.html#VisitorPattern_Domain_Shapes_IShapePrinter_Print_VisitorPattern_Domain_Shapes_Rectangle_
+  - name: (
+  - uid: VisitorPattern.Domain.Shapes.Rectangle
+    name: Rectangle
+    href: VisitorPattern.Domain.Shapes.Rectangle.html
+  - name: )
+- uid: VisitorPattern.Domain.Shapes.Rectangle
+  commentId: T:VisitorPattern.Domain.Shapes.Rectangle
+  parent: VisitorPattern.Domain.Shapes
+  href: VisitorPattern.Domain.Shapes.Rectangle.html
+  name: Rectangle
+  nameWithType: Rectangle
+  fullName: VisitorPattern.Domain.Shapes.Rectangle
+- uid: VisitorPattern.Domain.Shapes.IShapePrinter.Print(VisitorPattern.Domain.Shapes.Square)
+  commentId: M:VisitorPattern.Domain.Shapes.IShapePrinter.Print(VisitorPattern.Domain.Shapes.Square)
+  parent: VisitorPattern.Domain.Shapes.IShapePrinter
+  href: VisitorPattern.Domain.Shapes.IShapePrinter.html#VisitorPattern_Domain_Shapes_IShapePrinter_Print_VisitorPattern_Domain_Shapes_Square_
+  name: Print(Square)
+  nameWithType: IShapePrinter.Print(Square)
+  fullName: VisitorPattern.Domain.Shapes.IShapePrinter.Print(VisitorPattern.Domain.Shapes.Square)
+  spec.csharp:
+  - uid: VisitorPattern.Domain.Shapes.IShapePrinter.Print(VisitorPattern.Domain.Shapes.Square)
+    name: Print
+    href: VisitorPattern.Domain.Shapes.IShapePrinter.html#VisitorPattern_Domain_Shapes_IShapePrinter_Print_VisitorPattern_Domain_Shapes_Square_
+  - name: (
+  - uid: VisitorPattern.Domain.Shapes.Square
+    name: Square
+    href: VisitorPattern.Domain.Shapes.Square.html
+  - name: )
+  spec.vb:
+  - uid: VisitorPattern.Domain.Shapes.IShapePrinter.Print(VisitorPattern.Domain.Shapes.Square)
+    name: Print
+    href: VisitorPattern.Domain.Shapes.IShapePrinter.html#VisitorPattern_Domain_Shapes_IShapePrinter_Print_VisitorPattern_Domain_Shapes_Square_
+  - name: (
+  - uid: VisitorPattern.Domain.Shapes.Square
+    name: Square
+    href: VisitorPattern.Domain.Shapes.Square.html
+  - name: )
+- uid: VisitorPattern.Domain.Shapes.Square
+  commentId: T:VisitorPattern.Domain.Shapes.Square
+  parent: VisitorPattern.Domain.Shapes
+  href: VisitorPattern.Domain.Shapes.Square.html
+  name: Square
+  nameWithType: Square
+  fullName: VisitorPattern.Domain.Shapes.Square
+- uid: VisitorPattern.Domain.Shapes.IShapePrinter.Print(VisitorPattern.Domain.Shapes.Circle)
+  commentId: M:VisitorPattern.Domain.Shapes.IShapePrinter.Print(VisitorPattern.Domain.Shapes.Circle)
+  parent: VisitorPattern.Domain.Shapes.IShapePrinter
+  href: VisitorPattern.Domain.Shapes.IShapePrinter.html#VisitorPattern_Domain_Shapes_IShapePrinter_Print_VisitorPattern_Domain_Shapes_Circle_
+  name: Print(Circle)
+  nameWithType: IShapePrinter.Print(Circle)
+  fullName: VisitorPattern.Domain.Shapes.IShapePrinter.Print(VisitorPattern.Domain.Shapes.Circle)
+  spec.csharp:
+  - uid: VisitorPattern.Domain.Shapes.IShapePrinter.Print(VisitorPattern.Domain.Shapes.Circle)
+    name: Print
+    href: VisitorPattern.Domain.Shapes.IShapePrinter.html#VisitorPattern_Domain_Shapes_IShapePrinter_Print_VisitorPattern_Domain_Shapes_Circle_
+  - name: (
+  - uid: VisitorPattern.Domain.Shapes.Circle
+    name: Circle
+    href: VisitorPattern.Domain.Shapes.Circle.html
+  - name: )
+  spec.vb:
+  - uid: VisitorPattern.Domain.Shapes.IShapePrinter.Print(VisitorPattern.Domain.Shapes.Circle)
+    name: Print
+    href: VisitorPattern.Domain.Shapes.IShapePrinter.html#VisitorPattern_Domain_Shapes_IShapePrinter_Print_VisitorPattern_Domain_Shapes_Circle_
+  - name: (
+  - uid: VisitorPattern.Domain.Shapes.Circle
+    name: Circle
+    href: VisitorPattern.Domain.Shapes.Circle.html
+  - name: )
+- uid: VisitorPattern.Domain.Shapes.Circle
+  commentId: T:VisitorPattern.Domain.Shapes.Circle
+  parent: VisitorPattern.Domain.Shapes
+  href: VisitorPattern.Domain.Shapes.Circle.html
+  name: Circle
+  nameWithType: Circle
+  fullName: VisitorPattern.Domain.Shapes.Circle
+- uid: System.NotImplementedException
+  commentId: T:System.NotImplementedException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.notimplementedexception
+  name: NotImplementedException
+  nameWithType: NotImplementedException
+  fullName: System.NotImplementedException

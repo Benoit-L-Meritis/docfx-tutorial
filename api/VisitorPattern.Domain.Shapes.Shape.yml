@@ -1,0 +1,503 @@
+### YamlMime:ManagedReference
+items:
+- uid: VisitorPattern.Domain.Shapes.Shape
+  commentId: T:VisitorPattern.Domain.Shapes.Shape
+  id: Shape
+  parent: VisitorPattern.Domain.Shapes
+  children:
+  - VisitorPattern.Domain.Shapes.Shape.Area
+  - VisitorPattern.Domain.Shapes.Shape.Perimeter
+  - VisitorPattern.Domain.Shapes.Shape.ShapeName
+  langs:
+  - csharp
+  - vb
+  name: Shape
+  nameWithType: Shape
+  fullName: VisitorPattern.Domain.Shapes.Shape
+  type: Class
+  source:
+    id: Shape
+    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\Shape.cs
+    startLine: 6
+  assemblies:
+  - VisitorPattern
+  namespace: VisitorPattern.Domain.Shapes
+  summary: Abstract base class representing a geometric shape.
+  example: []
+  syntax:
+    content: 'public abstract class Shape : IShape'
+    content.vb: Public MustInherit Class Shape Implements IShape
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - VisitorPattern.Domain.Shapes.Circle
+  - VisitorPattern.Domain.Shapes.Rectangle
+  implements:
+  - VisitorPattern.Domain.Shapes.IShape
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: VisitorPattern.Domain.Shapes.Shape.Area
+  commentId: M:VisitorPattern.Domain.Shapes.Shape.Area
+  id: Area
+  parent: VisitorPattern.Domain.Shapes.Shape
+  langs:
+  - csharp
+  - vb
+  name: Area()
+  nameWithType: Shape.Area()
+  fullName: VisitorPattern.Domain.Shapes.Shape.Area()
+  type: Method
+  source:
+    id: Area
+    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\Shape.cs
+    startLine: 9
+  assemblies:
+  - VisitorPattern
+  namespace: VisitorPattern.Domain.Shapes
+  summary: Area of the shape.
+  example: []
+  syntax:
+    content: public abstract double Area()
+    return:
+      type: System.Double
+      description: ''
+    content.vb: Public MustOverride Function Area() As Double
+  overload: VisitorPattern.Domain.Shapes.Shape.Area*
+  implements:
+  - VisitorPattern.Domain.Shapes.IShape.Area
+- uid: VisitorPattern.Domain.Shapes.Shape.Perimeter
+  commentId: M:VisitorPattern.Domain.Shapes.Shape.Perimeter
+  id: Perimeter
+  parent: VisitorPattern.Domain.Shapes.Shape
+  langs:
+  - csharp
+  - vb
+  name: Perimeter()
+  nameWithType: Shape.Perimeter()
+  fullName: VisitorPattern.Domain.Shapes.Shape.Perimeter()
+  type: Method
+  source:
+    id: Perimeter
+    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\Shape.cs
+    startLine: 12
+  assemblies:
+  - VisitorPattern
+  namespace: VisitorPattern.Domain.Shapes
+  summary: Perimeter of the shape.
+  example: []
+  syntax:
+    content: public abstract double Perimeter()
+    return:
+      type: System.Double
+      description: ''
+    content.vb: Public MustOverride Function Perimeter() As Double
+  overload: VisitorPattern.Domain.Shapes.Shape.Perimeter*
+  implements:
+  - VisitorPattern.Domain.Shapes.IShape.Perimeter
+- uid: VisitorPattern.Domain.Shapes.Shape.ShapeName
+  commentId: M:VisitorPattern.Domain.Shapes.Shape.ShapeName
+  id: ShapeName
+  parent: VisitorPattern.Domain.Shapes.Shape
+  langs:
+  - csharp
+  - vb
+  name: ShapeName()
+  nameWithType: Shape.ShapeName()
+  fullName: VisitorPattern.Domain.Shapes.Shape.ShapeName()
+  type: Method
+  source:
+    id: ShapeName
+    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\Shape.cs
+    startLine: 15
+  assemblies:
+  - VisitorPattern
+  namespace: VisitorPattern.Domain.Shapes
+  summary: Name of the shape.
+  example: []
+  syntax:
+    content: public abstract string ShapeName()
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public MustOverride Function ShapeName() As String
+  overload: VisitorPattern.Domain.Shapes.Shape.ShapeName*
+  implements:
+  - VisitorPattern.Domain.Shapes.IShape.ShapeName
+references:
+- uid: VisitorPattern.Domain.Shapes
+  commentId: N:VisitorPattern.Domain.Shapes
+  href: VisitorPattern.html
+  name: VisitorPattern.Domain.Shapes
+  nameWithType: VisitorPattern.Domain.Shapes
+  fullName: VisitorPattern.Domain.Shapes
+  spec.csharp:
+  - uid: VisitorPattern
+    name: VisitorPattern
+    href: VisitorPattern.html
+  - name: .
+  - uid: VisitorPattern.Domain
+    name: Domain
+    href: VisitorPattern.Domain.html
+  - name: .
+  - uid: VisitorPattern.Domain.Shapes
+    name: Shapes
+    href: VisitorPattern.Domain.Shapes.html
+  spec.vb:
+  - uid: VisitorPattern
+    name: VisitorPattern
+    href: VisitorPattern.html
+  - name: .
+  - uid: VisitorPattern.Domain
+    name: Domain
+    href: VisitorPattern.Domain.html
+  - name: .
+  - uid: VisitorPattern.Domain.Shapes
+    name: Shapes
+    href: VisitorPattern.Domain.Shapes.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: VisitorPattern.Domain.Shapes.IShape
+  commentId: T:VisitorPattern.Domain.Shapes.IShape
+  parent: VisitorPattern.Domain.Shapes
+  href: VisitorPattern.Domain.Shapes.IShape.html
+  name: IShape
+  nameWithType: IShape
+  fullName: VisitorPattern.Domain.Shapes.IShape
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: VisitorPattern.Domain.Shapes.Shape.Area*
+  commentId: Overload:VisitorPattern.Domain.Shapes.Shape.Area
+  href: VisitorPattern.Domain.Shapes.Shape.html#VisitorPattern_Domain_Shapes_Shape_Area
+  name: Area
+  nameWithType: Shape.Area
+  fullName: VisitorPattern.Domain.Shapes.Shape.Area
+- uid: VisitorPattern.Domain.Shapes.IShape.Area
+  commentId: M:VisitorPattern.Domain.Shapes.IShape.Area
+  parent: VisitorPattern.Domain.Shapes.IShape
+  href: VisitorPattern.Domain.Shapes.IShape.html#VisitorPattern_Domain_Shapes_IShape_Area
+  name: Area()
+  nameWithType: IShape.Area()
+  fullName: VisitorPattern.Domain.Shapes.IShape.Area()
+  spec.csharp:
+  - uid: VisitorPattern.Domain.Shapes.IShape.Area
+    name: Area
+    href: VisitorPattern.Domain.Shapes.IShape.html#VisitorPattern_Domain_Shapes_IShape_Area
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: VisitorPattern.Domain.Shapes.IShape.Area
+    name: Area
+    href: VisitorPattern.Domain.Shapes.IShape.html#VisitorPattern_Domain_Shapes_IShape_Area
+  - name: (
+  - name: )
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: VisitorPattern.Domain.Shapes.Shape.Perimeter*
+  commentId: Overload:VisitorPattern.Domain.Shapes.Shape.Perimeter
+  href: VisitorPattern.Domain.Shapes.Shape.html#VisitorPattern_Domain_Shapes_Shape_Perimeter
+  name: Perimeter
+  nameWithType: Shape.Perimeter
+  fullName: VisitorPattern.Domain.Shapes.Shape.Perimeter
+- uid: VisitorPattern.Domain.Shapes.IShape.Perimeter
+  commentId: M:VisitorPattern.Domain.Shapes.IShape.Perimeter
+  parent: VisitorPattern.Domain.Shapes.IShape
+  href: VisitorPattern.Domain.Shapes.IShape.html#VisitorPattern_Domain_Shapes_IShape_Perimeter
+  name: Perimeter()
+  nameWithType: IShape.Perimeter()
+  fullName: VisitorPattern.Domain.Shapes.IShape.Perimeter()
+  spec.csharp:
+  - uid: VisitorPattern.Domain.Shapes.IShape.Perimeter
+    name: Perimeter
+    href: VisitorPattern.Domain.Shapes.IShape.html#VisitorPattern_Domain_Shapes_IShape_Perimeter
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: VisitorPattern.Domain.Shapes.IShape.Perimeter
+    name: Perimeter
+    href: VisitorPattern.Domain.Shapes.IShape.html#VisitorPattern_Domain_Shapes_IShape_Perimeter
+  - name: (
+  - name: )
+- uid: VisitorPattern.Domain.Shapes.Shape.ShapeName*
+  commentId: Overload:VisitorPattern.Domain.Shapes.Shape.ShapeName
+  href: VisitorPattern.Domain.Shapes.Shape.html#VisitorPattern_Domain_Shapes_Shape_ShapeName
+  name: ShapeName
+  nameWithType: Shape.ShapeName
+  fullName: VisitorPattern.Domain.Shapes.Shape.ShapeName
+- uid: VisitorPattern.Domain.Shapes.IShape.ShapeName
+  commentId: M:VisitorPattern.Domain.Shapes.IShape.ShapeName
+  parent: VisitorPattern.Domain.Shapes.IShape
+  href: VisitorPattern.Domain.Shapes.IShape.html#VisitorPattern_Domain_Shapes_IShape_ShapeName
+  name: ShapeName()
+  nameWithType: IShape.ShapeName()
+  fullName: VisitorPattern.Domain.Shapes.IShape.ShapeName()
+  spec.csharp:
+  - uid: VisitorPattern.Domain.Shapes.IShape.ShapeName
+    name: ShapeName
+    href: VisitorPattern.Domain.Shapes.IShape.html#VisitorPattern_Domain_Shapes_IShape_ShapeName
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: VisitorPattern.Domain.Shapes.IShape.ShapeName
+    name: ShapeName
+    href: VisitorPattern.Domain.Shapes.IShape.html#VisitorPattern_Domain_Shapes_IShape_ShapeName
+  - name: (
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
