@@ -14,8 +14,12 @@ items:
   fullName: VisitorPattern.Samples.Shapes
   type: Class
   source:
+    remote:
+      path: src/VisitorPattern/Samples/Shapes.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: Shapes
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Samples\Shapes.cs
+    path: src/VisitorPattern/Samples/Shapes.cs
     startLine: 7
   assemblies:
   - VisitorPattern
@@ -47,8 +51,12 @@ items:
   fullName: VisitorPattern.Samples.Shapes.Samples
   type: Property
   source:
+    remote:
+      path: src/VisitorPattern/Samples/Shapes.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: Samples
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Samples\Shapes.cs
+    path: src/VisitorPattern/Samples/Shapes.cs
     startLine: 12
   assemblies:
   - VisitorPattern

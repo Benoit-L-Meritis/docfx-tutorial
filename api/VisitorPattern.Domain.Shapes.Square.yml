@@ -16,8 +16,12 @@ items:
   fullName: VisitorPattern.Domain.Shapes.Square
   type: Class
   source:
+    remote:
+      path: src/VisitorPattern/Domain/Shapes/Square.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: Square
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\Square.cs
+    path: src/VisitorPattern/Domain/Shapes/Square.cs
     startLine: 14
   assemblies:
   - VisitorPattern
@@ -69,8 +73,12 @@ items:
   fullName: VisitorPattern.Domain.Shapes.Square.Square(double)
   type: Constructor
   source:
+    remote:
+      path: src/VisitorPattern/Domain/Shapes/Square.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: .ctor
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\Square.cs
+    path: src/VisitorPattern/Domain/Shapes/Square.cs
     startLine: 14
   assemblies:
   - VisitorPattern
@@ -112,8 +120,12 @@ items:
   fullName: VisitorPattern.Domain.Shapes.Square.ShapeName()
   type: Method
   source:
+    remote:
+      path: src/VisitorPattern/Domain/Shapes/Square.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: ShapeName
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\Square.cs
+    path: src/VisitorPattern/Domain/Shapes/Square.cs
     startLine: 17
   assemblies:
   - VisitorPattern
@@ -140,8 +152,12 @@ items:
   fullName: VisitorPattern.Domain.Shapes.Square.Print(VisitorPattern.Domain.Shapes.IShapePrinter)
   type: Method
   source:
+    remote:
+      path: src/VisitorPattern/Domain/Shapes/Square.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: Print
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\Square.cs
+    path: src/VisitorPattern/Domain/Shapes/Square.cs
     startLine: 20
   assemblies:
   - VisitorPattern

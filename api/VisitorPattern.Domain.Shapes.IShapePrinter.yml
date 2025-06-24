@@ -16,8 +16,12 @@ items:
   fullName: VisitorPattern.Domain.Shapes.IShapePrinter
   type: Interface
   source:
+    remote:
+      path: src/VisitorPattern/Domain/Shapes/IShapePrinter.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: IShapePrinter
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\IShapePrinter.cs
+    path: src/VisitorPattern/Domain/Shapes/IShapePrinter.cs
     startLine: 8
   assemblies:
   - VisitorPattern
@@ -40,8 +44,12 @@ items:
   fullName: VisitorPattern.Domain.Shapes.IShapePrinter.Print(VisitorPattern.Domain.Shapes.Rectangle)
   type: Method
   source:
+    remote:
+      path: src/VisitorPattern/Domain/Shapes/IShapePrinter.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: Print
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\IShapePrinter.cs
+    path: src/VisitorPattern/Domain/Shapes/IShapePrinter.cs
     startLine: 14
   assemblies:
   - VisitorPattern
@@ -68,8 +76,12 @@ items:
   fullName: VisitorPattern.Domain.Shapes.IShapePrinter.Print(VisitorPattern.Domain.Shapes.Square)
   type: Method
   source:
+    remote:
+      path: src/VisitorPattern/Domain/Shapes/IShapePrinter.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: Print
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\IShapePrinter.cs
+    path: src/VisitorPattern/Domain/Shapes/IShapePrinter.cs
     startLine: 20
   assemblies:
   - VisitorPattern
@@ -96,8 +108,12 @@ items:
   fullName: VisitorPattern.Domain.Shapes.IShapePrinter.Print(VisitorPattern.Domain.Shapes.Circle)
   type: Method
   source:
+    remote:
+      path: src/VisitorPattern/Domain/Shapes/IShapePrinter.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: Print
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\IShapePrinter.cs
+    path: src/VisitorPattern/Domain/Shapes/IShapePrinter.cs
     startLine: 26
   assemblies:
   - VisitorPattern

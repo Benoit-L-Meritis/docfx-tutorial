@@ -14,8 +14,12 @@ items:
   fullName: VisitorPattern.Domain.Shapes.IPrintabeShape
   type: Interface
   source:
+    remote:
+      path: src/VisitorPattern/Domain/Shapes/IPrintabeShape.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: IPrintabeShape
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\IPrintabeShape.cs
+    path: src/VisitorPattern/Domain/Shapes/IPrintabeShape.cs
     startLine: 5
   assemblies:
   - VisitorPattern
@@ -37,8 +41,12 @@ items:
   fullName: VisitorPattern.Domain.Shapes.IPrintabeShape.Print(VisitorPattern.Domain.Shapes.IShapePrinter)
   type: Method
   source:
+    remote:
+      path: src/VisitorPattern/Domain/Shapes/IPrintabeShape.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: Print
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\IPrintabeShape.cs
+    path: src/VisitorPattern/Domain/Shapes/IPrintabeShape.cs
     startLine: 11
   assemblies:
   - VisitorPattern

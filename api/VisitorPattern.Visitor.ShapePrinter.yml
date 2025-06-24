@@ -17,8 +17,12 @@ items:
   fullName: VisitorPattern.Visitor.ShapePrinter
   type: Class
   source:
+    remote:
+      path: src/VisitorPattern/Visitor/ShapePrinter.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: ShapePrinter
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Visitor\ShapePrinter.cs
+    path: src/VisitorPattern/Visitor/ShapePrinter.cs
     startLine: 48
   assemblies:
   - VisitorPattern
@@ -92,8 +96,12 @@ items:
   fullName: VisitorPattern.Visitor.ShapePrinter.Print(VisitorPattern.Domain.Shapes.Rectangle)
   type: Method
   source:
+    remote:
+      path: src/VisitorPattern/Visitor/ShapePrinter.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: Print
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Visitor\ShapePrinter.cs
+    path: src/VisitorPattern/Visitor/ShapePrinter.cs
     startLine: 51
   assemblies:
   - VisitorPattern
@@ -122,8 +130,12 @@ items:
   fullName: VisitorPattern.Visitor.ShapePrinter.Print(VisitorPattern.Domain.Shapes.Square)
   type: Method
   source:
+    remote:
+      path: src/VisitorPattern/Visitor/ShapePrinter.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: Print
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Visitor\ShapePrinter.cs
+    path: src/VisitorPattern/Visitor/ShapePrinter.cs
     startLine: 57
   assemblies:
   - VisitorPattern
@@ -152,8 +164,12 @@ items:
   fullName: VisitorPattern.Visitor.ShapePrinter.Print(VisitorPattern.Domain.Shapes.Circle)
   type: Method
   source:
+    remote:
+      path: src/VisitorPattern/Visitor/ShapePrinter.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: Print
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Visitor\ShapePrinter.cs
+    path: src/VisitorPattern/Visitor/ShapePrinter.cs
     startLine: 77
   assemblies:
   - VisitorPattern
@@ -182,8 +198,12 @@ items:
   fullName: VisitorPattern.Visitor.ShapePrinter.Print(object)
   type: Method
   source:
+    remote:
+      path: src/VisitorPattern/Visitor/ShapePrinter.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: Print
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Visitor\ShapePrinter.cs
+    path: src/VisitorPattern/Visitor/ShapePrinter.cs
     startLine: 87
   assemblies:
   - VisitorPattern

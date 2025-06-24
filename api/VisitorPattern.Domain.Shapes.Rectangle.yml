@@ -19,8 +19,12 @@ items:
   fullName: VisitorPattern.Domain.Shapes.Rectangle
   type: Class
   source:
+    remote:
+      path: src/VisitorPattern/Domain/Shapes/Rectangle.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: Rectangle
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\Rectangle.cs
+    path: src/VisitorPattern/Domain/Shapes/Rectangle.cs
     startLine: 10
   assemblies:
   - VisitorPattern
@@ -62,8 +66,12 @@ items:
   fullName: VisitorPattern.Domain.Shapes.Rectangle.Rectangle(double, double)
   type: Constructor
   source:
+    remote:
+      path: src/VisitorPattern/Domain/Shapes/Rectangle.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: .ctor
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\Rectangle.cs
+    path: src/VisitorPattern/Domain/Shapes/Rectangle.cs
     startLine: 10
   assemblies:
   - VisitorPattern
@@ -100,8 +108,12 @@ items:
   fullName: VisitorPattern.Domain.Shapes.Rectangle.Width
   type: Property
   source:
+    remote:
+      path: src/VisitorPattern/Domain/Shapes/Rectangle.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: Width
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\Rectangle.cs
+    path: src/VisitorPattern/Domain/Shapes/Rectangle.cs
     startLine: 15
   assemblies:
   - VisitorPattern
@@ -127,8 +139,12 @@ items:
   fullName: VisitorPattern.Domain.Shapes.Rectangle.Area()
   type: Method
   source:
+    remote:
+      path: src/VisitorPattern/Domain/Shapes/Rectangle.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: Area
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\Rectangle.cs
+    path: src/VisitorPattern/Domain/Shapes/Rectangle.cs
     startLine: 18
   assemblies:
   - VisitorPattern
@@ -155,8 +171,12 @@ items:
   fullName: VisitorPattern.Domain.Shapes.Rectangle.Perimeter()
   type: Method
   source:
+    remote:
+      path: src/VisitorPattern/Domain/Shapes/Rectangle.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: Perimeter
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\Rectangle.cs
+    path: src/VisitorPattern/Domain/Shapes/Rectangle.cs
     startLine: 21
   assemblies:
   - VisitorPattern
@@ -183,8 +203,12 @@ items:
   fullName: VisitorPattern.Domain.Shapes.Rectangle.ShapeName()
   type: Method
   source:
+    remote:
+      path: src/VisitorPattern/Domain/Shapes/Rectangle.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: ShapeName
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\Rectangle.cs
+    path: src/VisitorPattern/Domain/Shapes/Rectangle.cs
     startLine: 24
   assemblies:
   - VisitorPattern
@@ -211,8 +235,12 @@ items:
   fullName: VisitorPattern.Domain.Shapes.Rectangle.Print(VisitorPattern.Domain.Shapes.IShapePrinter)
   type: Method
   source:
+    remote:
+      path: src/VisitorPattern/Domain/Shapes/Rectangle.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: Print
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\Rectangle.cs
+    path: src/VisitorPattern/Domain/Shapes/Rectangle.cs
     startLine: 27
   assemblies:
   - VisitorPattern

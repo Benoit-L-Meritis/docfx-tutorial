@@ -18,8 +18,12 @@ items:
   fullName: MinimalApiSample.dtos.WeatherForecast
   type: Class
   source:
+    remote:
+      path: src/MinimalApiSample/dtos/WeatherForecast.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: WeatherForecast
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\MinimalApiSample\dtos\WeatherForecast.cs
+    path: src/MinimalApiSample/dtos/WeatherForecast.cs
     startLine: 10
   assemblies:
   - MinimalApiSample
@@ -53,8 +57,12 @@ items:
   fullName: MinimalApiSample.dtos.WeatherForecast.WeatherForecast(System.DateOnly, int, string?)
   type: Constructor
   source:
+    remote:
+      path: src/MinimalApiSample/dtos/WeatherForecast.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: .ctor
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\MinimalApiSample\dtos\WeatherForecast.cs
+    path: src/MinimalApiSample/dtos/WeatherForecast.cs
     startLine: 10
   assemblies:
   - MinimalApiSample
@@ -90,8 +98,12 @@ items:
   fullName: MinimalApiSample.dtos.WeatherForecast.Date
   type: Property
   source:
+    remote:
+      path: src/MinimalApiSample/dtos/WeatherForecast.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: Date
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\MinimalApiSample\dtos\WeatherForecast.cs
+    path: src/MinimalApiSample/dtos/WeatherForecast.cs
     startLine: 11
   assemblies:
   - MinimalApiSample
@@ -117,8 +129,12 @@ items:
   fullName: MinimalApiSample.dtos.WeatherForecast.TemperatureC
   type: Property
   source:
+    remote:
+      path: src/MinimalApiSample/dtos/WeatherForecast.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: TemperatureC
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\MinimalApiSample\dtos\WeatherForecast.cs
+    path: src/MinimalApiSample/dtos/WeatherForecast.cs
     startLine: 13
   assemblies:
   - MinimalApiSample
@@ -144,8 +160,12 @@ items:
   fullName: MinimalApiSample.dtos.WeatherForecast.Summary
   type: Property
   source:
+    remote:
+      path: src/MinimalApiSample/dtos/WeatherForecast.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: Summary
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\MinimalApiSample\dtos\WeatherForecast.cs
+    path: src/MinimalApiSample/dtos/WeatherForecast.cs
     startLine: 15
   assemblies:
   - MinimalApiSample
@@ -171,8 +191,12 @@ items:
   fullName: MinimalApiSample.dtos.WeatherForecast.TemperatureF
   type: Property
   source:
+    remote:
+      path: src/MinimalApiSample/dtos/WeatherForecast.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: TemperatureF
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\MinimalApiSample\dtos\WeatherForecast.cs
+    path: src/MinimalApiSample/dtos/WeatherForecast.cs
     startLine: 22
   assemblies:
   - MinimalApiSample

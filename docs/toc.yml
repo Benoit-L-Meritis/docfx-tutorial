@@ -6,3 +6,5 @@
   href: BDD/toc.yml
 - name: HowTo
   href: HowTo/toc.yml
+- name: Bibliographie
+  href: biblio.md

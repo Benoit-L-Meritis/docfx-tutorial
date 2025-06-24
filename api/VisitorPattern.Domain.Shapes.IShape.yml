@@ -16,8 +16,12 @@ items:
   fullName: VisitorPattern.Domain.Shapes.IShape
   type: Interface
   source:
+    remote:
+      path: src/VisitorPattern/Domain/Shapes/IShape.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: IShape
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\IShape.cs
+    path: src/VisitorPattern/Domain/Shapes/IShape.cs
     startLine: 5
   assemblies:
   - VisitorPattern
@@ -39,8 +43,12 @@ items:
   fullName: VisitorPattern.Domain.Shapes.IShape.Area()
   type: Method
   source:
+    remote:
+      path: src/VisitorPattern/Domain/Shapes/IShape.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: Area
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\IShape.cs
+    path: src/VisitorPattern/Domain/Shapes/IShape.cs
     startLine: 12
   assemblies:
   - VisitorPattern
@@ -66,8 +74,12 @@ items:
   fullName: VisitorPattern.Domain.Shapes.IShape.Perimeter()
   type: Method
   source:
+    remote:
+      path: src/VisitorPattern/Domain/Shapes/IShape.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: Perimeter
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\IShape.cs
+    path: src/VisitorPattern/Domain/Shapes/IShape.cs
     startLine: 18
   assemblies:
   - VisitorPattern
@@ -93,8 +105,12 @@ items:
   fullName: VisitorPattern.Domain.Shapes.IShape.ShapeName()
   type: Method
   source:
+    remote:
+      path: src/VisitorPattern/Domain/Shapes/IShape.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: ShapeName
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\IShape.cs
+    path: src/VisitorPattern/Domain/Shapes/IShape.cs
     startLine: 24
   assemblies:
   - VisitorPattern

@@ -18,8 +18,12 @@ items:
   fullName: VisitorPattern.Domain.Shapes.Circle
   type: Class
   source:
+    remote:
+      path: src/VisitorPattern/Domain/Shapes/Circle.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: Circle
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\Circle.cs
+    path: src/VisitorPattern/Domain/Shapes/Circle.cs
     startLine: 9
   assemblies:
   - VisitorPattern
@@ -58,8 +62,12 @@ items:
   fullName: VisitorPattern.Domain.Shapes.Circle.Circle(double)
   type: Constructor
   source:
+    remote:
+      path: src/VisitorPattern/Domain/Shapes/Circle.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: .ctor
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\Circle.cs
+    path: src/VisitorPattern/Domain/Shapes/Circle.cs
     startLine: 9
   assemblies:
   - VisitorPattern
@@ -92,8 +100,12 @@ items:
   fullName: VisitorPattern.Domain.Shapes.Circle.Area()
   type: Method
   source:
+    remote:
+      path: src/VisitorPattern/Domain/Shapes/Circle.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: Area
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\Circle.cs
+    path: src/VisitorPattern/Domain/Shapes/Circle.cs
     startLine: 12
   assemblies:
   - VisitorPattern
@@ -120,8 +132,12 @@ items:
   fullName: VisitorPattern.Domain.Shapes.Circle.Perimeter()
   type: Method
   source:
+    remote:
+      path: src/VisitorPattern/Domain/Shapes/Circle.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: Perimeter
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\Circle.cs
+    path: src/VisitorPattern/Domain/Shapes/Circle.cs
     startLine: 15
   assemblies:
   - VisitorPattern
@@ -148,8 +164,12 @@ items:
   fullName: VisitorPattern.Domain.Shapes.Circle.ShapeName()
   type: Method
   source:
+    remote:
+      path: src/VisitorPattern/Domain/Shapes/Circle.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: ShapeName
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\Circle.cs
+    path: src/VisitorPattern/Domain/Shapes/Circle.cs
     startLine: 18
   assemblies:
   - VisitorPattern
@@ -176,8 +196,12 @@ items:
   fullName: VisitorPattern.Domain.Shapes.Circle.Print(VisitorPattern.Domain.Shapes.IShapePrinter)
   type: Method
   source:
+    remote:
+      path: src/VisitorPattern/Domain/Shapes/Circle.cs
+      branch: main
+      repo: https://github.com/Benoit-L-Meritis/docfx-tutorial.git
     id: Print
-    path: C:\Users\Benoit\Documents\DEV\sandbox\doc-as-code\docfx-tutorial\src\VisitorPattern\Domain\Shapes\Circle.cs
+    path: src/VisitorPattern/Domain/Shapes/Circle.cs
     startLine: 21
   assemblies:
   - VisitorPattern
