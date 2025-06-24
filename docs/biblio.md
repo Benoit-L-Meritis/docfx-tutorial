@@ -73,3 +73,7 @@ Plus prospectifs, en utilisant des AI Gen :robot:
 
 - [Concept et exemple (EN)](https://www.octopipe.com/blog/docs-first-engineering-workflow)
 - [Pas à pas (EN)](https://dev.to/dumebii/documentation-engineering-for-beginners-all-you-need-to-know-4die)
+
+## Accès direct à la biblio
+
+![Biblio](../images/biblio.png)
